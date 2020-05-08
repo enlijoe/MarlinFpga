@@ -1,0 +1,107 @@
+C:/hardware/MarlinFpga/src/Uart_tb.sv {1 {vlog -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Uart_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 21:28:58 on May 07,2020
+vlog -reportprogress 300 -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Uart_tb.sv 
+-- Compiling package Uart_tb_sv_unit
+-- Importing package UartPackage
+-- Compiling module Uart_tb
+
+Top level modules:
+	Uart_tb
+End time: 21:28:58 on May 07,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/hardware/MarlinFpga/src/Eeprom_tb.sv {1 {vlog -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Eeprom_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 21:28:57 on May 07,2020
+vlog -reportprogress 300 -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Eeprom_tb.sv 
+-- Compiling package Eeprom_tb_sv_unit
+-- Compiling module Eeprom_tb
+
+Top level modules:
+	Eeprom_tb
+End time: 21:28:58 on May 07,2020, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} C:/hardware/MarlinFpga/src/AvalonMM_Uart.sv {1 {vlog -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/AvalonMM_Uart.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 21:28:58 on May 07,2020
+vlog -reportprogress 300 -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/AvalonMM_Uart.sv 
+-- Compiling package AvalonMM_Uart_sv_unit
+-- Importing package UartPackage
+-- Compiling module AvalonMM_Uart
+
+Top level modules:
+	AvalonMM_Uart
+End time: 21:28:58 on May 07,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/hardware/MarlinFpga/src/I2c.sv {1 {vlog -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/I2c.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 21:28:58 on May 07,2020
+vlog -reportprogress 300 -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/I2c.sv 
+-- Compiling module I2c
+
+Top level modules:
+	I2c
+End time: 21:28:58 on May 07,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/hardware/MarlinFpga/src/Wifi.sv {1 {vlog -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Wifi.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 21:28:57 on May 07,2020
+vlog -reportprogress 300 -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Wifi.sv 
+-- Compiling module Widfi
+
+Top level modules:
+	Widfi
+End time: 21:28:57 on May 07,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/hardware/MarlinFpga/src/Uart.sv {1 {vlog -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Uart.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 21:28:58 on May 07,2020
+vlog -reportprogress 300 -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Uart.sv 
+-- Compiling package Uart_sv_unit
+-- Importing package UartPackage
+-- Compiling module Uart
+
+Top level modules:
+	Uart
+End time: 21:28:58 on May 07,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/hardware/MarlinFpga/src/UartPackage.sv {1 {vlog -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/UartPackage.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 21:28:58 on May 07,2020
+vlog -reportprogress 300 -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/UartPackage.sv 
+-- Compiling package UartPackage
+
+Top level modules:
+	--none--
+End time: 21:28:58 on May 07,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/hardware/MarlinFpga/src/Pwm.sv {1 {vlog -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Pwm.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 21:28:58 on May 07,2020
+vlog -reportprogress 300 -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Pwm.sv 
+-- Compiling module Pwm
+
+Top level modules:
+	Pwm
+End time: 21:28:58 on May 07,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/hardware/MarlinFpga/src/Eeprom.sv {1 {vlog -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Eeprom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 21:28:57 on May 07,2020
+vlog -reportprogress 300 -work MarlinFPGA -sv C:/hardware/MarlinFpga/src/Eeprom.sv 
+-- Compiling module Eeprom
+
+Top level modules:
+	Eeprom
+End time: 21:28:57 on May 07,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}}

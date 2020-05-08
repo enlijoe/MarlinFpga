@@ -1,0 +1,336 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/hardware/Marlin
+vAvalonMM_Uart
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 DXx4 work 11 UartPackage 0 22 m2neSE9PhNh9?hK;5W<cS2
+DXx4 work 21 AvalonMM_Uart_sv_unit 0 22 3DENIQBWRj1X`D`Ih^NN73
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]IL3Z7aNR742Xg8B5kgMP2
+I5zSEjgUcZVE4UaAeI0dzC0
+!s105 AvalonMM_Uart_sv_unit
+S1
+Z3 dC:/hardware/MarlinFpga
+Z4 w1588900318
+Z5 8C:/hardware/MarlinFpga/src/AvalonMM_Uart.sv
+Z6 FC:/hardware/MarlinFpga/src/AvalonMM_Uart.sv
+L0 3
+Z7 OV;L;10.5b;63
+Z8 !s108 1588904938.000000
+Z9 !s107 C:/hardware/MarlinFpga/src/AvalonMM_Uart.sv|
+Z10 !s90 -reportprogress|300|-work|MarlinFPGA|-sv|C:/hardware/MarlinFpga/src/AvalonMM_Uart.sv|
+!i113 1
+Z11 o-work MarlinFPGA -sv
+Z12 tCvgOpt 0
+n@avalon@m@m_@uart
+XAvalonMM_Uart_sv_unit
+R0
+R1
+V3DENIQBWRj1X`D`Ih^NN73
+r1
+!s85 0
+31
+!i10b 1
+!s100 ZgS9mkmS:iN5L5J;K`X7l1
+I3DENIQBWRj1X`D`Ih^NN73
+!i103 1
+S1
+R3
+R4
+R5
+R6
+L0 1
+R7
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@avalon@m@m_@uart_sv_unit
+vEeprom
+R0
+Z13 !s110 1588904937
+!i10b 1
+!s100 nzdDO]hVUcnRQdhC4l57N0
+I3f1]4WciUEC9m_`K5RkFF3
+R2
+!s105 Eeprom_sv_unit
+S1
+R3
+w1588796600
+8C:/hardware/MarlinFpga/src/Eeprom.sv
+FC:/hardware/MarlinFpga/src/Eeprom.sv
+L0 1
+R7
+r1
+!s85 0
+31
+Z14 !s108 1588904937.000000
+!s107 C:/hardware/MarlinFpga/src/Eeprom.sv|
+!s90 -reportprogress|300|-work|MarlinFPGA|-sv|C:/hardware/MarlinFpga/src/Eeprom.sv|
+!i113 1
+R11
+R12
+n@eeprom
+vEeprom_tb
+R0
+DXx4 work 17 Eeprom_tb_sv_unit 0 22 _O>md9ITBliGCTUdLGR<c2
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 @><HR]FeDb2S^NZh96RfN1
+IGGT1c8Sz6@W8=CYbI4]U=2
+!s105 Eeprom_tb_sv_unit
+S1
+R3
+Z15 w1588868760
+Z16 8C:/hardware/MarlinFpga/src/Eeprom_tb.sv
+Z17 FC:/hardware/MarlinFpga/src/Eeprom_tb.sv
+L0 8
+R7
+R14
+Z18 !s107 C:/hardware/MarlinFpga/src/Eeprom_tb.sv|
+Z19 !s90 -reportprogress|300|-work|MarlinFPGA|-sv|C:/hardware/MarlinFpga/src/Eeprom_tb.sv|
+!i113 1
+R11
+R12
+n@eeprom_tb
+XEeprom_tb_sv_unit
+R0
+V_O>md9ITBliGCTUdLGR<c2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ilbVP`_JDEN6F@[OLmSO]2
+I_O>md9ITBliGCTUdLGR<c2
+!i103 1
+S1
+R3
+R15
+R16
+R17
+L0 3
+R7
+R14
+R18
+R19
+!i113 1
+R11
+R12
+n@eeprom_tb_sv_unit
+vI2c
+R0
+Z20 !s110 1588904938
+!i10b 1
+!s100 eXG0?QBDSKJV6i1H0X@ej3
+I]FMz?fV;ASYXSaEz;OFjZ3
+R2
+!s105 I2c_sv_unit
+S1
+R3
+w1588866216
+8C:/hardware/MarlinFpga/src/I2c.sv
+FC:/hardware/MarlinFpga/src/I2c.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/hardware/MarlinFpga/src/I2c.sv|
+!s90 -reportprogress|300|-work|MarlinFPGA|-sv|C:/hardware/MarlinFpga/src/I2c.sv|
+!i113 1
+R11
+R12
+n@i2c
+vPwm
+R0
+R20
+!i10b 1
+!s100 eLAbLjl0Vh3547Yl6;63S2
+IW=Gn@nHFB4P>EnCFV6z6@2
+R2
+!s105 Pwm_sv_unit
+S1
+R3
+w1588865890
+8C:/hardware/MarlinFpga/src/Pwm.sv
+FC:/hardware/MarlinFpga/src/Pwm.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/hardware/MarlinFpga/src/Pwm.sv|
+!s90 -reportprogress|300|-work|MarlinFPGA|-sv|C:/hardware/MarlinFpga/src/Pwm.sv|
+!i113 1
+R11
+R12
+n@pwm
+vUart
+R0
+R1
+DXx4 work 12 Uart_sv_unit 0 22 k?<zY7IT5nHBk9j]oWC:_0
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 C:^V>OBc>fXFdV=3YMBP[1
+IHZY3Dh^0E<8O4LmCc0oS21
+!s105 Uart_sv_unit
+S1
+R3
+Z21 w1588897660
+Z22 8C:/hardware/MarlinFpga/src/Uart.sv
+Z23 FC:/hardware/MarlinFpga/src/Uart.sv
+L0 3
+R7
+R8
+Z24 !s107 C:/hardware/MarlinFpga/src/Uart.sv|
+Z25 !s90 -reportprogress|300|-work|MarlinFPGA|-sv|C:/hardware/MarlinFpga/src/Uart.sv|
+!i113 1
+R11
+R12
+n@uart
+XUart_sv_unit
+R0
+R1
+Vk?<zY7IT5nHBk9j]oWC:_0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?OG>0ng?mC4YD7O_>b6M;2
+Ik?<zY7IT5nHBk9j]oWC:_0
+!i103 1
+S1
+R3
+R21
+R22
+R23
+L0 1
+R7
+R8
+R24
+R25
+!i113 1
+R11
+R12
+n@uart_sv_unit
+vUart_tb
+R0
+R1
+DXx4 work 15 Uart_tb_sv_unit 0 22 9`MK>Q:3NdaPRV0ldc=g]0
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 z8GU7jSU9_5;<cHLR^c630
+Ie[R2R;d>_h]8Ff=VX:bjQ0
+!s105 Uart_tb_sv_unit
+S1
+R3
+Z26 w1588898699
+Z27 8C:/hardware/MarlinFpga/src/Uart_tb.sv
+Z28 FC:/hardware/MarlinFpga/src/Uart_tb.sv
+L0 23
+R7
+R8
+Z29 !s107 C:/hardware/MarlinFpga/src/Uart_tb.sv|
+Z30 !s90 -reportprogress|300|-work|MarlinFPGA|-sv|C:/hardware/MarlinFpga/src/Uart_tb.sv|
+!i113 1
+R11
+R12
+n@uart_tb
+XUart_tb_sv_unit
+R0
+R1
+V9`MK>Q:3NdaPRV0ldc=g]0
+r1
+!s85 0
+31
+!i10b 1
+!s100 omJ3jz>Y7V:PedC>7X1`z0
+I9`MK>Q:3NdaPRV0ldc=g]0
+!i103 1
+S1
+R3
+R26
+R27
+R28
+L0 3
+R7
+R8
+R29
+R30
+!i113 1
+R11
+R12
+n@uart_tb_sv_unit
+XUartPackage
+R0
+R20
+!i10b 1
+!s100 YTa[>ef3EiP6P0FzoknFT3
+Im2neSE9PhNh9?hK;5W<cS2
+Vm2neSE9PhNh9?hK;5W<cS2
+S1
+R3
+w1588899757
+8C:/hardware/MarlinFpga/src/UartPackage.sv
+FC:/hardware/MarlinFpga/src/UartPackage.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/hardware/MarlinFpga/src/UartPackage.sv|
+!s90 -reportprogress|300|-work|MarlinFPGA|-sv|C:/hardware/MarlinFpga/src/UartPackage.sv|
+!i113 1
+R11
+R12
+n@uart@package
+vWidfi
+R0
+R13
+!i10b 1
+!s100 0`CXnzTEma@L3OYOe6fo90
+I;dBgTUfVNaCD<g260o>bR1
+R2
+!s105 Wifi_sv_unit
+S1
+R3
+w1588866572
+8C:/hardware/MarlinFpga/src/Wifi.sv
+FC:/hardware/MarlinFpga/src/Wifi.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R14
+!s107 C:/hardware/MarlinFpga/src/Wifi.sv|
+!s90 -reportprogress|300|-work|MarlinFPGA|-sv|C:/hardware/MarlinFpga/src/Wifi.sv|
+!i113 1
+R11
+R12
+n@widfi
