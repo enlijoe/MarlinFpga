@@ -1,0 +1,278 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 31 33
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Pack04_Split R?
+U 2 1 5E9F7CC4
+P 1350 1800
+AR Path="/5E9BB0A9/5E9F7CC4" Ref="R?"  Part="1" 
+AR Path="/5E9FFFDA/5E9F7CC4" Ref="R66"  Part="2" 
+AR Path="/5EA00033/5E9F7CC4" Ref="R?"  Part="1" 
+AR Path="/5EA00086/5E9F7CC4" Ref="R?"  Part="1" 
+AR Path="/5EA000A9/5E9F7CC4" Ref="R?"  Part="1" 
+AR Path="/5EA000FC/5E9F7CC4" Ref="R?"  Part="1" 
+AR Path="/5EA0398C/5E9F7CC4" Ref="R?"  Part="1" 
+AR Path="/5EA039CC/5E9F7CC4" Ref="R?"  Part="1" 
+AR Path="/5EA039F0/5E9F7CC4" Ref="R?"  Part="1" 
+AR Path="/5EA03A4C/5E9F7CC4" Ref="R?"  Part="1" 
+AR Path="/5EA03A7C/5E9F7CC4" Ref="R?"  Part="1" 
+AR Path="/5EA05DA3/5E9F7CC4" Ref="R66"  Part="4" 
+AR Path="/5EA05E1C/5E9F7CC4" Ref="R75"  Part="2" 
+F 0 "R75" H 1420 1846 50  0000 L CNN
+F 1 "1K" H 1420 1755 50  0000 L CNN
+F 2 "" V 1280 1800 50  0001 C CNN
+F 3 "~" H 1350 1800 50  0001 C CNN
+	2    1350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_Split R?
+U 3 1 5E9F894F
+P 1800 2000
+AR Path="/5E9BB0A9/5E9F894F" Ref="R?"  Part="1" 
+AR Path="/5E9FFFDA/5E9F894F" Ref="R66"  Part="3" 
+AR Path="/5EA00033/5E9F894F" Ref="R?"  Part="1" 
+AR Path="/5EA00086/5E9F894F" Ref="R?"  Part="1" 
+AR Path="/5EA000A9/5E9F894F" Ref="R?"  Part="1" 
+AR Path="/5EA000FC/5E9F894F" Ref="R?"  Part="1" 
+AR Path="/5EA0398C/5E9F894F" Ref="R?"  Part="1" 
+AR Path="/5EA039CC/5E9F894F" Ref="R?"  Part="1" 
+AR Path="/5EA039F0/5E9F894F" Ref="R?"  Part="1" 
+AR Path="/5EA03A4C/5E9F894F" Ref="R?"  Part="1" 
+AR Path="/5EA03A7C/5E9F894F" Ref="R?"  Part="1" 
+AR Path="/5EA05DA3/5E9F894F" Ref="R75"  Part="1" 
+AR Path="/5EA05E1C/5E9F894F" Ref="R75"  Part="3" 
+F 0 "R75" H 1870 2046 50  0000 L CNN
+F 1 "1K" H 1870 1955 50  0000 L CNN
+F 2 "" V 1730 2000 50  0001 C CNN
+F 3 "~" H 1800 2000 50  0001 C CNN
+	3    1800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E9FA35F
+P 1700 1550
+AR Path="/5E9BB0A9/5E9FA35F" Ref="Q?"  Part="1" 
+AR Path="/5E9FFFDA/5E9FA35F" Ref="Q12"  Part="1" 
+AR Path="/5EA00033/5E9FA35F" Ref="Q?"  Part="1" 
+AR Path="/5EA00086/5E9FA35F" Ref="Q?"  Part="1" 
+AR Path="/5EA000A9/5E9FA35F" Ref="Q?"  Part="1" 
+AR Path="/5EA000FC/5E9FA35F" Ref="Q?"  Part="1" 
+AR Path="/5EA0398C/5E9FA35F" Ref="Q?"  Part="1" 
+AR Path="/5EA039CC/5E9FA35F" Ref="Q?"  Part="1" 
+AR Path="/5EA039F0/5E9FA35F" Ref="Q?"  Part="1" 
+AR Path="/5EA03A4C/5E9FA35F" Ref="Q?"  Part="1" 
+AR Path="/5EA03A7C/5E9FA35F" Ref="Q?"  Part="1" 
+AR Path="/5EA05DA3/5E9FA35F" Ref="Q16"  Part="1" 
+AR Path="/5EA05E1C/5E9FA35F" Ref="Q18"  Part="1" 
+F 0 "Q18" H 1905 1550 50  0000 L CNN
+F 1 "Q_PMOS_GSD" H 1905 1505 50  0001 L CNN
+F 2 "" H 1900 1650 50  0001 C CNN
+F 3 "~" H 1700 1550 50  0001 C CNN
+	1    1700 1550
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5E9FABFC
+P 2100 1800
+AR Path="/5E9BB0A9/5E9FABFC" Ref="Q?"  Part="1" 
+AR Path="/5E9FFFDA/5E9FABFC" Ref="Q13"  Part="1" 
+AR Path="/5EA00033/5E9FABFC" Ref="Q?"  Part="1" 
+AR Path="/5EA00086/5E9FABFC" Ref="Q?"  Part="1" 
+AR Path="/5EA000A9/5E9FABFC" Ref="Q?"  Part="1" 
+AR Path="/5EA000FC/5E9FABFC" Ref="Q?"  Part="1" 
+AR Path="/5EA0398C/5E9FABFC" Ref="Q?"  Part="1" 
+AR Path="/5EA039CC/5E9FABFC" Ref="Q?"  Part="1" 
+AR Path="/5EA039F0/5E9FABFC" Ref="Q?"  Part="1" 
+AR Path="/5EA03A4C/5E9FABFC" Ref="Q?"  Part="1" 
+AR Path="/5EA03A7C/5E9FABFC" Ref="Q?"  Part="1" 
+AR Path="/5EA05DA3/5E9FABFC" Ref="Q17"  Part="1" 
+AR Path="/5EA05E1C/5E9FABFC" Ref="Q19"  Part="1" 
+F 0 "Q19" H 2305 1800 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 2304 1755 50  0001 L CNN
+F 2 "" H 2300 1900 50  0001 C CNN
+F 3 "~" H 2100 1800 50  0001 C CNN
+	1    2100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E9FFCED
+P 2200 2100
+AR Path="/5E9BB0A9/5E9FFCED" Ref="#PWR?"  Part="1" 
+AR Path="/5E9FFFDA/5E9FFCED" Ref="#PWR0153"  Part="1" 
+AR Path="/5EA00033/5E9FFCED" Ref="#PWR?"  Part="1" 
+AR Path="/5EA00086/5E9FFCED" Ref="#PWR?"  Part="1" 
+AR Path="/5EA000A9/5E9FFCED" Ref="#PWR?"  Part="1" 
+AR Path="/5EA000FC/5E9FFCED" Ref="#PWR?"  Part="1" 
+AR Path="/5EA0398C/5E9FFCED" Ref="#PWR?"  Part="1" 
+AR Path="/5EA039CC/5E9FFCED" Ref="#PWR?"  Part="1" 
+AR Path="/5EA039F0/5E9FFCED" Ref="#PWR?"  Part="1" 
+AR Path="/5EA03A4C/5E9FFCED" Ref="#PWR?"  Part="1" 
+AR Path="/5EA03A7C/5E9FFCED" Ref="#PWR?"  Part="1" 
+AR Path="/5EA05DA3/5E9FFCED" Ref="#PWR0166"  Part="1" 
+AR Path="/5EA05E1C/5E9FFCED" Ref="#PWR0171"  Part="1" 
+F 0 "#PWR0171" H 2200 1850 50  0001 C CNN
+F 1 "GND" H 2205 1927 50  0000 C CNN
+F 2 "" H 2200 2100 50  0001 C CNN
+F 3 "" H 2200 2100 50  0001 C CNN
+	1    2200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA00498
+P 1800 2250
+AR Path="/5E9BB0A9/5EA00498" Ref="#PWR?"  Part="1" 
+AR Path="/5E9FFFDA/5EA00498" Ref="#PWR0152"  Part="1" 
+AR Path="/5EA00033/5EA00498" Ref="#PWR?"  Part="1" 
+AR Path="/5EA00086/5EA00498" Ref="#PWR?"  Part="1" 
+AR Path="/5EA000A9/5EA00498" Ref="#PWR?"  Part="1" 
+AR Path="/5EA000FC/5EA00498" Ref="#PWR?"  Part="1" 
+AR Path="/5EA0398C/5EA00498" Ref="#PWR?"  Part="1" 
+AR Path="/5EA039CC/5EA00498" Ref="#PWR?"  Part="1" 
+AR Path="/5EA039F0/5EA00498" Ref="#PWR?"  Part="1" 
+AR Path="/5EA03A4C/5EA00498" Ref="#PWR?"  Part="1" 
+AR Path="/5EA03A7C/5EA00498" Ref="#PWR?"  Part="1" 
+AR Path="/5EA05DA3/5EA00498" Ref="#PWR0165"  Part="1" 
+AR Path="/5EA05E1C/5EA00498" Ref="#PWR0170"  Part="1" 
+F 0 "#PWR0170" H 1800 2000 50  0001 C CNN
+F 1 "GND" H 1805 2077 50  0000 C CNN
+F 2 "" H 1800 2250 50  0001 C CNN
+F 3 "" H 1800 2250 50  0001 C CNN
+	1    1800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA005C4
+P 1350 2050
+AR Path="/5E9BB0A9/5EA005C4" Ref="#PWR?"  Part="1" 
+AR Path="/5E9FFFDA/5EA005C4" Ref="#PWR0150"  Part="1" 
+AR Path="/5EA00033/5EA005C4" Ref="#PWR?"  Part="1" 
+AR Path="/5EA00086/5EA005C4" Ref="#PWR?"  Part="1" 
+AR Path="/5EA000A9/5EA005C4" Ref="#PWR?"  Part="1" 
+AR Path="/5EA000FC/5EA005C4" Ref="#PWR?"  Part="1" 
+AR Path="/5EA0398C/5EA005C4" Ref="#PWR?"  Part="1" 
+AR Path="/5EA039CC/5EA005C4" Ref="#PWR?"  Part="1" 
+AR Path="/5EA039F0/5EA005C4" Ref="#PWR?"  Part="1" 
+AR Path="/5EA03A4C/5EA005C4" Ref="#PWR?"  Part="1" 
+AR Path="/5EA03A7C/5EA005C4" Ref="#PWR?"  Part="1" 
+AR Path="/5EA05DA3/5EA005C4" Ref="#PWR0163"  Part="1" 
+AR Path="/5EA05E1C/5EA005C4" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0168" H 1350 1800 50  0001 C CNN
+F 1 "GND" H 1355 1877 50  0000 C CNN
+F 2 "" H 1350 2050 50  0001 C CNN
+F 3 "" H 1350 2050 50  0001 C CNN
+	1    1350 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1750 1800 1800
+Wire Wire Line
+	1900 1800 1800 1800
+Connection ~ 1800 1800
+Wire Wire Line
+	1800 1800 1800 1850
+Wire Wire Line
+	2200 2000 2200 2100
+Wire Wire Line
+	1800 2150 1800 2250
+Wire Wire Line
+	1500 1550 1350 1550
+Wire Wire Line
+	1350 1550 1350 1650
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EA00E7C
+P 1800 1250
+AR Path="/5E9BB0A9/5EA00E7C" Ref="#PWR?"  Part="1" 
+AR Path="/5E9FFFDA/5EA00E7C" Ref="#PWR0151"  Part="1" 
+AR Path="/5EA00033/5EA00E7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EA00086/5EA00E7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EA000A9/5EA00E7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EA000FC/5EA00E7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EA0398C/5EA00E7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EA039CC/5EA00E7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EA039F0/5EA00E7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EA03A4C/5EA00E7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EA03A7C/5EA00E7C" Ref="#PWR?"  Part="1" 
+AR Path="/5EA05DA3/5EA00E7C" Ref="#PWR0164"  Part="1" 
+AR Path="/5EA05E1C/5EA00E7C" Ref="#PWR0169"  Part="1" 
+F 0 "#PWR0169" H 1800 1100 50  0001 C CNN
+F 1 "+3V3" H 1815 1423 50  0000 C CNN
+F 2 "" H 1800 1250 50  0001 C CNN
+F 3 "" H 1800 1250 50  0001 C CNN
+	1    1800 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1250 1800 1350
+Text HLabel 1150 1550 0    50   Input ~ 0
+In
+Wire Wire Line
+	1350 1550 1150 1550
+Connection ~ 1350 1550
+Wire Wire Line
+	2200 1600 2200 1500
+Wire Wire Line
+	2200 1500 2300 1500
+Wire Wire Line
+	1350 1950 1350 2050
+$Comp
+L Connector:Conn_01x02_Male J18
+U 1 1 5EA00C5B
+P 2500 1500
+AR Path="/5E9FFFDA/5EA00C5B" Ref="J18"  Part="1" 
+AR Path="/5EA0398C/5EA00C5B" Ref="J?"  Part="1" 
+AR Path="/5EA039CC/5EA00C5B" Ref="J?"  Part="1" 
+AR Path="/5EA039F0/5EA00C5B" Ref="J?"  Part="1" 
+AR Path="/5EA03A4C/5EA00C5B" Ref="J?"  Part="1" 
+AR Path="/5EA03A7C/5EA00C5B" Ref="J?"  Part="1" 
+AR Path="/5EA05DA3/5EA00C5B" Ref="J21"  Part="1" 
+AR Path="/5EA05E1C/5EA00C5B" Ref="J22"  Part="1" 
+F 0 "J22" H 2472 1382 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 2472 1473 50  0000 R CNN
+F 2 "" H 2500 1500 50  0001 C CNN
+F 3 "~" H 2500 1500 50  0001 C CNN
+	1    2500 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR0154
+U 1 1 5EA02319
+P 2250 1300
+AR Path="/5E9FFFDA/5EA02319" Ref="#PWR0154"  Part="1" 
+AR Path="/5EA0398C/5EA02319" Ref="#PWR?"  Part="1" 
+AR Path="/5EA039CC/5EA02319" Ref="#PWR?"  Part="1" 
+AR Path="/5EA039F0/5EA02319" Ref="#PWR?"  Part="1" 
+AR Path="/5EA03A4C/5EA02319" Ref="#PWR?"  Part="1" 
+AR Path="/5EA03A7C/5EA02319" Ref="#PWR?"  Part="1" 
+AR Path="/5EA05DA3/5EA02319" Ref="#PWR0167"  Part="1" 
+AR Path="/5EA05E1C/5EA02319" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0172" H 2250 1150 50  0001 C CNN
+F 1 "+24V" H 2265 1473 50  0000 C CNN
+F 2 "" H 2250 1300 50  0001 C CNN
+F 3 "" H 2250 1300 50  0001 C CNN
+	1    2250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1300 2250 1400
+Wire Wire Line
+	2250 1400 2300 1400
+$EndSCHEMATC

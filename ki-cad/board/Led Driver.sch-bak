@@ -1,0 +1,71 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 24 32
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D4
+U 1 1 5EA0B09F
+P 1900 1800
+AR Path="/5E9BB37E/5EA0B09F" Ref="D4"  Part="1" 
+AR Path="/5E9FF0D5/5EA0B09F" Ref="D5"  Part="1" 
+AR Path="/5E9FF117/5EA0B09F" Ref="D6"  Part="1" 
+AR Path="/5E9FF141/5EA0B09F" Ref="D7"  Part="1" 
+F 0 "D7" H 1893 2016 50  0000 C CNN
+F 1 "LED" H 1893 1925 50  0000 C CNN
+F 2 "" H 1900 1800 50  0001 C CNN
+F 3 "~" H 1900 1800 50  0001 C CNN
+	1    1900 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_Split R12
+U 1 1 5EA0C3DA
+P 1500 1800
+AR Path="/5E9BB37E/5EA0C3DA" Ref="R12"  Part="2" 
+AR Path="/5E9FF0D5/5EA0C3DA" Ref="R12"  Part="3" 
+AR Path="/5E9FF117/5EA0C3DA" Ref="R12"  Part="4" 
+AR Path="/5E9FF141/5EA0C3DA" Ref="R66"  Part="1" 
+F 0 "R66" V 1293 1800 50  0000 C CNN
+F 1 "1K" V 1384 1800 50  0000 C CNN
+F 2 "" V 1430 1800 50  0001 C CNN
+F 3 "~" H 1500 1800 50  0001 C CNN
+	1    1500 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR064
+U 1 1 5EA0D6C9
+P 2150 1900
+AR Path="/5E9BB37E/5EA0D6C9" Ref="#PWR064"  Part="1" 
+AR Path="/5E9FF0D5/5EA0D6C9" Ref="#PWR0147"  Part="1" 
+AR Path="/5E9FF117/5EA0D6C9" Ref="#PWR0148"  Part="1" 
+AR Path="/5E9FF141/5EA0D6C9" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 2150 1650 50  0001 C CNN
+F 1 "GND" H 2155 1727 50  0000 C CNN
+F 2 "" H 2150 1900 50  0001 C CNN
+F 3 "" H 2150 1900 50  0001 C CNN
+	1    2150 1900
+	1    0    0    -1  
+$EndComp
+Text HLabel 1150 1800 0    50   Input ~ 0
+In
+Wire Wire Line
+	1150 1800 1350 1800
+Wire Wire Line
+	1650 1800 1750 1800
+Wire Wire Line
+	2050 1800 2150 1800
+Wire Wire Line
+	2150 1800 2150 1900
+$EndSCHEMATC
